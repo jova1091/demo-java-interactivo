@@ -1,0 +1,67 @@
+/* Colors */
+@media only screen and (max-width: 767px) {
+  .navbar.navbar-inverse.navbar-cupi2-social .container {
+    text-align: center; }
+
+  .navbar.navbar-inverse.navbar-cupi2-social ul {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin: auto;
+    padding: 0; }
+
+  .navbar.navbar-inverse.navbar-cupi2-social li {
+    float: left; }
+
+  .navbar.navbar-inverse.navbar-cupi2 .navbar-brand.right {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    height: 60px; }
+
+  .navbar.navbar-inverse.navbar-cupi2 .navbar-nav {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  .navbar.navbar-inverse.navbar-cupi2 button.navbar-toggle {
+    border-color: white; }
+
+  .navbar.navbar-inverse.navbar-cupi2 button.navbar-toggle:hover .icon-bar, .navbar.navbar-inverse.navbar-cupi2 button.navbar-toggle:focus .icon-bar, .navbar.navbar-inverse.navbar-cupi2 button.navbar-toggle:active .icon-bar {
+    background-color: #ED6C2C; }
+
+  .navbar.navbar-inverse.navbar-cupi2 button.navbar-toggle:hover, .navbar.navbar-inverse.navbar-cupi2 button.navbar-toggle:focus, .navbar.navbar-inverse.navbar-cupi2 button.navbar-toggle:active {
+    background-color: white; }
+
+  .navbar.navbar-inverse.navbar-cupi2 .navbar-header {
+    position: relative;
+    margin: auto;
+    text-align: left; }
+
+  .navbar.navbar-inverse.navbar-cupi2 .navbar-header h1 {
+    font-size: 18pt;
+    margin-bottom: 20px; }
+
+  #bird {
+    right: 0;
+    top: 0; }
+
+  .card {
+    margin-bottom: 20px; }
+
+  .progress {
+    margin-top: 80px;
+    margin-bottom: 80px; }
+
+  .card {
+    min-height: auto; }
+
+  .row.profile-data .primary {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; } }

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Inicio</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/main-theme.css" rel="stylesheet">
+    <link href="css/main-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body> 
+    <nav class="navbar navbar-inverse navbar-cupi2">
+      <div class="container">
+        <div class="navbar-header">
+          <h1>Tablero de logros 
+          </h1>
+          <a class="navbar-brand right" href="#"><img src="img/cupi2.png" height="100%"></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="row profile-data" style="padding-top: 0;">
+    <div class="container personal-data">
+        <div class="container">
+        <div class="col-md-6 col-md-offset-3 primary">
+          <div class="col-md-3">
+            <img class="image img-circle" src="img/default-profile.svg" width="72">
+          </div>
+          <div class="col-md-9">
+            <h3>Nombre: <span class="name"></span></h3>
+            <h3>Institución: <span class="institution"></span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="row points-data">
+      <div class="container">
+          <div class="col-md-4 center-all-content-v">
+             <div class="card" id="seccion-experiencia">
+            <h1>Puntos de experiencia</h1>
+            <div class="progress">
+                <div class="progress-bar exp-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <span class="dato-puntos-exp">50%</span>
+                </div>
+            </div>
+            <div class="row info-puntaje">
+              <h4>Hasta el momento su puntaje de experiencia es superior al <span class="dato-puntos-exp">50%</span> de los puntajes obtenidos por los estudiantes del curso.</h4>
+            </div>
+             </div>
+          </div>
+
+          <div class="col-md-4 center-all-content-v">
+             <div class="card" id="seccion-competencia">
+            <h1>Puntos de competencia</h1>
+              <div class="progress">
+                <div class="progress-bar comp-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <span class="dato-puntos-comp">50%</span>
+                </div>
+            </div>
+            <div class="row info-puntaje center-all-content-v">
+              <h4>Hasta el momento, usted ha alcanzado el <span class="dato-puntos-comp">50%</span> de competencia.</h4>
+              <ul class="convention">
+              <li>
+                <img src="img/oro.png" alt="Medalla de Oro" /> Medalla de Oro
+              </li>
+              <li>
+                <img src="img/plata.png" alt="Medalla de Plata" /> Medalla de Plata
+              </li>
+              <li>
+                <img src="img/bronce.png" alt="Medalla de Bronce" /> Medalla de Bronce
+              </li>
+            </ul>
+            </div>
+             </div>
+          </div>
+
+          <div class="col-md-4 center-all-content-v">
+            <div class="card">
+            <h1>Puntos de habilidad</h1>
+            <div id="contenedorCanvas">
+              <form>
+                <input id="input_izq" type="text">
+                <span id="label_izq" class="label-indicator center-all-content-v">Abstracción</span>
+                <input id="input_der" type="text">
+                <span id="label_der" class="label-indicator center-all-content-v">Programación</span>
+              </form>
+            </div>
+            <h4>Hasta el momento, usted ha alcanzado el 
+<span class="puntos-abstraccion"></span>%
+de habilidades de abstracción y el 
+<span class="puntos-programacion"></span>%
+ de habilidades de programación.</h4>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="container">
+        <div class="col-md-12">
+          <p style="font-size: 11px; text-align: left; padding: 0 20px; color: #B3B3B3;">*Si desea obtener más puntos de competencia y experiencia o conocer su perfil de programador (puntos de habilidades de programación y de abstracción) lo invitamos a realizar las evaluaciones teóricas y prácticas de los módulos 1 al 4 y la evaluación por pares del módulo 5, las cuales son requisito para la certificación. ¡Acepte el reto de las evaluaciones y logre la certificación!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="row city-background">
+      <img src="img/city-background.svg" width="100%">
+    </section>
+
+    <footer class="row footer-cupi2">
+      <div class="container">
+        <h5>Universidad de los Andes | Vigilada Mineducación</h5>
+        <h5>Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964</h5>
+        <h5>Reconocimiento personería jurídica: Resolución 28 del 23 de febrero de 1949 Minjusticia</h5>
+        <h5>Edificio Mario Laserna Cra 1Este No 19A - 40 Bogotá (Colombia) | Tel: [571] 3394949 Ext: 2860, 2861, 2862 | Fax: [571] 3324325 </h5>
+        <h5>© 2017 - Departamento de Ingeniería de Sistemas y Computación | Conecta-TE, Centro de Innovación en Tecnología y Educación</h5>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="p5/p5.js" type="text/javascript"></script>
+    <script src="p5/p5.dom.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/balanza.js" type="text/javascript"></script>
+  </body>
+</html>

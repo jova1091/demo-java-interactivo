@@ -1,0 +1,405 @@
+/* Colors */
+/*Fonts All*/
+* {
+  font-family: 'Work Sans', sans-serif; }
+
+/* General Styles */
+h1 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 20px; }
+
+.center-all-content-v {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+.center-all-content-h {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+.stretch-content-fit {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch; }
+
+.bottom-border {
+  border-bottom: 1px solid white;
+  padding-bottom: 25px; }
+
+.personal-data {
+  width: 100%;
+  background-color: #E9EEF3;
+  padding: 30px 0 30px 0; }
+
+.image.img-circle {
+  max-width: 72px;
+  width: 72px;
+  height: auto; }
+
+/* General Styles End */
+/* Navbar social styles */
+.navbar.navbar-inverse.navbar-cupi2-social {
+  background-color: #8d8d8d;
+  min-height: 30px;
+  border: 0;
+  border-radius: 0;
+  margin: 0; }
+
+.navbar.navbar-inverse.navbar-cupi2-social .navbar-nav > li > a {
+  padding: 10px; }
+
+/* Navbar styles */
+.navbar.navbar-inverse.navbar-cupi2 {
+  background-color: #CC0066;
+  border-color: #CC0066;
+  border-radius: 0;
+  border: 0;
+  margin: 0; }
+
+.navbar.navbar-inverse.navbar-cupi2 .container {
+  position: relative; }
+
+.navbar.navbar-inverse.navbar-cupi2 .navbar-collapse {
+  text-align: center; }
+
+.navbar.navbar-inverse.navbar-cupi2 .navbar-brand.right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  height: 100%;
+  max-width: 100px; }
+
+.navbar.navbar-inverse.navbar-cupi2 .navbar-brand.right:after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  border-left: 1px white solid;
+  height: 40px;
+  width: 1px;
+  left: -10px;
+  top: 0;
+  bottom: 0; }
+
+.navbar.navbar-inverse.navbar-cupi2 .navbar-nav {
+  padding: 15px;
+  margin-left: 50px; }
+
+.navbar.navbar-inverse.navbar-cupi2 .navbar-nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.navbar.navbar-inverse.navbar-cupi2 h1 {
+  color: white; }
+
+.navbar.navbar-inverse.navbar-cupi2 .bordered {
+  border: 1px solid white;
+  border-radius: 10px; }
+
+.navbar.navbar-inverse.navbar-cupi2 .navbar-nav > .active > a, .navbar.navbar-inverse.navbar-cupi2 .navbar-nav > .active > a:focus, .navbar.navbar-inverse.navbar-cupi2 .navbar-nav > .active > a:hover
+.navbar.navbar-inverse.navbar-cupi2 .navbar-nav > li > a:focus, .navbar.navbar-inverse.navbar-cupi2 .navbar-nav > li > a:hover {
+  background-color: #A13E0E;
+  border-radius: 10px; }
+
+.navbar.navbar-inverse.navbar-cupi2 .bordered:hover {
+  background-color: white !important;
+  color: #ED6C2C; }
+
+/* Navbar styles End */
+/* Profile section styles */
+.row.profile-data {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  color: white;
+  margin: 0;
+  color: #8d8d8d; }
+
+.row.profile-data .primary {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  text-align: left; }
+
+#bird {
+  position: absolute;
+  right: 200px;
+  bottom: -30px; }
+
+/* Profile section styles End*/
+/* Points section styles */
+.row.points-data {
+  min-height: 400px;
+  margin: 0; }
+
+.row.points-data h1 {
+  text-align: center;
+  color: #8d8d8d; }
+
+.row.points-data h4 {
+  color: #B3B3B3; }
+
+/* Points section styles end*/
+/* City Background section */
+.row.city-background {
+  margin: 0; }
+
+/* City Background section End */
+/* Footer styles */
+.row.footer-cupi2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #1A1A1A;
+  color: white; }
+
+/* Footer styles End*/
+/* Balanza */
+#contenedorCanvas {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto; }
+
+.input_izq, .input_der {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  min-width: 45px; }
+
+.input_izq {
+  color: #ED6C2C; }
+
+.input_der {
+  color: #CC0066; }
+
+/* Balanza End */
+/* Puntaje */
+.row.points-data h1, .row.points-data h4 {
+  text-align: center; }
+
+.row.puntaje {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.row.puntaje h1, .row.puntaje h4 {
+  margin: 0;
+  color: #ED6C2C;
+  font-weight: 400; }
+
+.row.puntaje h1 {
+  font-size: 48px; }
+
+.info-puntaje {
+  margin-top: 30px;
+  text-align: center; }
+
+/* Puntaje End */
+/* Progress Bar Styles */
+.progress {
+  height: 25px;
+  width: 100%;
+  overflow: visible;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 100px; }
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+  background-color: #ED6C2C;
+  position: relative; }
+
+.comp-bar {
+  background-color: #CC0066; }
+
+.progress-bar span {
+  background-color: #ED6C2C;
+  position: absolute;
+  bottom: -35px;
+  font-size: 11pt;
+  line-height: 10px;
+  padding: 10px 5px 10px 5px;
+  right: -1.4em;
+  border-radius: 2px; }
+
+.comp-bar span {
+  background-color: #CC0066; }
+
+.progress-bar span:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ED6C2C;
+  border-width: 5px;
+  margin-left: -5px; }
+
+.comp-bar span:after {
+  border-bottom-color: #CC0066; }
+
+/* Progress Bar Styles End */
+/* Cielo */
+#cieloCanvas {
+  position: relative; }
+
+#cieloCanvas .container {
+  position: relative;
+  z-index: 1; }
+
+#cieloCanvas canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; }
+
+/* Cielo End */
+/* Card Styles */
+.card {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  width: 100%;
+  min-height: 580px;
+  margin-bottom: 20px; }
+
+.card h1 {
+  margin-bottom: 10px; }
+
+.card h2, .card h3, .card h4 {
+  margin-bottom: 40px; }
+
+/* Card Styles End */
+/*Medal Style*/
+.progress .medal {
+  display: block;
+  line-height: 0em;
+  font-size: 0em;
+  position: absolute;
+  top: -13px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-left: 1px solid #263238;
+  padding-left: 2px; }
+
+.progress .medal::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: -27px 0px 0px -16px;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.progress .medal.style1::before {
+  background-image: url("../img/bronce.png"); }
+
+.progress .medal.style2::before {
+  background-image: url("../img/plata.png"); }
+
+.progress .medal.style3::before {
+  background-image: url("../img/oro.png"); }
+
+.convention {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  color: #8d8d8d; }
+
+.convention li {
+  margin-bottom: 20px; }
+
+/* Medal Style End */
+/*Estilos Demo*/
+#demo input {
+  margin-bottom: 25px; }
+
+/*Fin Estilos Demo*/
+/*Label Style*/
+.label-indicator {
+  background-color: #ED6C2C;
+  font-size: 8pt;
+  line-height: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  color: white; }
+
+.label-indicator:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ED6C2C;
+  border-width: 5px;
+  margin-left: -5px; }
+
+#label_der {
+  background-color: #CC0066; }
+
+#label_der:after {
+  border-bottom-color: #CC0066; }
+
+/*Label Style End*/
