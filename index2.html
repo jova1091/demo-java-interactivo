@@ -40,54 +40,7 @@
       </div>
     </nav>
 
-    <section class="row profile-data">
-        <div class="container bottom-border">
-        <form class="col-md-8 col-md-offset-2" id="demo">
-            <div class="form-group">
-            <div class="col-sm-4">
-                <label for="vala">Nombre del Estudiante</label>
-                <input type="text" class="form-control" id="vala">
-            </div>
-            <div class="col-sm-4">
-                <label for="vali">Nombre de la institución</label>
-                <input type="text" class="form-control" id="vali">
-            </div>
-            <div class="col-sm-4">
-                <label for="vals">Ruta de la foto de perfil</label>
-                <input type="text" class="form-control" id="vals">
-            </div>
-            </div>
-            <div class="form-group">
-            <div class="col-sm-12">
-                <label for="val1">Puntos de experiencia (entre 0 y 100)</label>
-                <input type="number" class="form-control" id="val1" min="0" max="100" value="0">
-            </div>
-            </div>
-            <div class="form-group">
-            <div class="col-sm-6">
-                <label for="val2">Cantidad de medallas de competencia</label>
-                <input type="number" class="form-control" id="val2" min="0" max="50" value="0">
-            </div>
-            <div class="col-sm-6">
-                <label for="val3">Puntos de competencia (entre 0 y 100)</label>
-                <input type="number" class="form-control" id="val3" min="0" max="100" value="0">
-            </div>
-            </div>
-            <div class="form-group">
-            <div class="col-sm-6">
-                <label for="val4">Puntos de habilidad | Abstracción (deben sumar 100)</label>
-                <input type="number" class="form-control" id="val4" min="0" max="50" value="0">
-            </div>
-            <div class="col-sm-6">
-                <label for="val5">Puntos de habilidad | Programación (deben sumar 100)</label>
-                <input type="number" class="form-control" id="val5" min="0" max="100" value="0">
-            </div>
-            </div>
-            <div class="text-center">
-            <button class="btn btn-default">Cargar información</button>
-            </div>
-        </form>
-        </div>
+    <section class="row profile-data" style="padding-top: 0;">
     <div class="container personal-data">
         <div class="container">
         <div class="col-md-6 col-md-offset-3 primary">
@@ -114,7 +67,7 @@
                 </div>
             </div>
             <div class="row info-puntaje">
-              <h4>Hasta el momento, su puntaje de experiencia es superior al <span class="dato-puntos-exp">50%</span> del puntaje de todos los estudiantes del curso.</h4>
+              <h4>Hasta el momento su puntaje de experiencia es superior al <span class="dato-puntos-exp">50%</span> de los puntajes obtenidos por los estudiantes del curso.</h4>
             </div>
              </div>
           </div>
@@ -165,6 +118,14 @@ de habilidades de abstracción y el
       </div>
     </section>
 
+    <section class="row">
+      <div class="container">
+        <div class="col-md-12">
+          <p style="font-size: 11px; text-align: left; padding: 0 20px; color: #B3B3B3;">*Si desea obtener más puntos de competencia y experiencia o conocer su perfil de programador (puntos de habilidades de programación y de abstracción) lo invitamos a realizar las evaluaciones teóricas y prácticas de los módulos 1 al 4 y la evaluación por pares del módulo 5, las cuales son requisito para la certificación. ¡Acepte el reto de las evaluaciones y logre la certificación!</p>
+        </div>
+      </div>
+    </section>
+
     <section class="row city-background">
       <img src="img/city-background.svg" width="100%">
     </section>
@@ -188,6 +149,5 @@ de habilidades de abstracción y el
     <script src="p5/p5.dom.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
     <script src="js/balanza.js" type="text/javascript"></script>
-    <script src="js/demo.js" type="text/javascript"></script>
   </body>
 </html>
